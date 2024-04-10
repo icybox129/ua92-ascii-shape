@@ -1,4 +1,4 @@
-## WITH CHAT GPT HELP
+## WITH CHAT GPT
 
 def triangle():
     length = 10
@@ -15,7 +15,7 @@ def reverse_triangle():
     for i in range(length):
         print("-" * i, end='')
         print(hash, end='')
-        print("-" * (i + 1))
+        print("-" * i)
         hash = hash[2:]
 
 reverse_triangle()
